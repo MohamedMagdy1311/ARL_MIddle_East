@@ -1,0 +1,192 @@
+*
+{
+    transition: all 1s;
+}
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: rgba(196, 45, 50, 0.68);
+    color: #fff;
+    text-shadow: none;
+}
+
+
+body
+{
+    
+    
+    margin-top: 80px;
+    padding: 0px;
+    background-color: #ffffff;
+    color: #444444;
+    line-height: 1.6;
+    font-family:  cursive,sans-serif,monospace;
+    overflow-x: hidden;
+  
+}
+
+
+
+/*start nav*/
+
+
+.navbar{
+	background: black!important;
+}
+
+.navbar i {
+    color: white;
+    margin-left: 20px;
+}
+.navbar-nav {
+    font-weight: 700;
+    
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.dropdown-item{
+    
+    font-family: cursive;
+    color: white;
+    
+}
+.navbar-nav .dropdown-menu {
+    background-color: #702124;
+}
+
+/*end nav*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start footer   */
+
+footer {
+ background: #702124;
+font-family: cursive;
+color: white;
+margin-top:100px;
+}
+
+    
+footer h4{
+color: black;
+margin: 5px;   
+}
+    
+    
+footer a {
+color: #fff;
+font-size: 14px;
+transition-duration: 0.2s;
+}
+
+
+
+footer a:hover {
+color: #FA944B;
+text-decoration: none;
+}
+
+.copy {
+font-size: 12px;
+padding: 10px;
+border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+padding-top: 2em;
+color: white;
+}
+
+
+
+
+
+
+/*end foooter*/
+
+
+.hir{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.address{
+    font-family: cursive;
+    font-weight: 700;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    
+}
+
+.address .list-group li {
+    margin: 10px
+    border: 2px solid brown;
+}
+.list-group-flush .list-group-item{
+    color: brown;
+}
+.contact-us {
+	background: url(../images/header2.jpg) no-repeat;
+	background-size: 100% 100% ;
+    margin-bottom: 30px;
+    
+}
+
+.contact-us h1{
+    color: white;
+}
+
+.contact-us p{
+    color: white;
+}
+.contact-us .overlay{
+	background: rgba( 2 , 2 , 2 , 0.8);
+	min-height: 500px;
+}
+.contact-us h1{
+     font-weight: bold;
+}
+.contact-us .header{
+	color: #FFF;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.contact-us textarea.form-control{
+	
+}
+.contact-us textarea.form-control , 
+.contact-us input{
+	background: rgba(82 , 78 , 78 , 0.7);
+	color: #FFF;
+	border: none;
+    margin-bottom: 20px;
+}
+
+
+.contact-us .btn-danger{
+	border-color: #b8100a;
+    margin-bottom: 50px;
+}
+.contact-us .btn-danger:hover{
+	border-color: #e94946;
+}

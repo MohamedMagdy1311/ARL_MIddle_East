@@ -1,0 +1,143 @@
+*
+{
+transition: all 1s;
+}
+
+:after, :before {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+::selection {
+background-color: rgba(196, 45, 50, 0.68);
+color: #fff;
+text-shadow: none;
+}
+body
+{    
+margin-top: 20px;
+padding: 0px;
+margin-top: 150px;
+color:black;
+line-height: 1.7;
+background-color: #702124;
+overflow-x: hidden;
+font-weight: 600;
+font-size: 16px;   
+text-align: center;
+background-image: url(../images/header.jpeg);
+font-family: cursive,sans-serif,monospace;
+}
+.custom-select{
+    margin: 20px 0px;
+    width: 450px
+
+    
+}
+
+input{
+    margin: 20px;
+    background-color: white;
+    color: #702124;
+    width: 300px;
+    text-align: center;
+    border: 1px solid #702124;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.my-3{margin: 20px;
+}
+
+
+/*start nav*/
+
+
+.navbar{
+	background: black!important;
+}
+
+.navbar i {
+    color: white;
+    margin-left: 20px;
+}
+.navbar-nav {
+    font-weight: 700;
+    
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.dropdown-item{
+    
+    font-family: cursive;
+    color: white;
+    
+}
+.navbar-nav .dropdown-menu {
+    background-color: #702124;
+}
+
+/*end nav*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start footer   */
+
+footer {
+ background: #702124;
+font-family: cursive;
+color: white;
+margin-top:100px;
+}
+
+    
+footer h4{
+color: black;
+margin: 5px;   
+}
+    
+    
+footer a {
+color: #fff;
+font-size: 14px;
+transition-duration: 0.2s;
+}
+
+
+
+footer a:hover {
+color: #FA944B;
+text-decoration: none;
+}
+
+.copy {
+font-size: 12px;
+padding: 10px;
+border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+padding-top: 2em;
+color: white;
+}
+
+
+
+
+
+
+/*end foooter*/

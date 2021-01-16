@@ -1,0 +1,401 @@
+*{
+	
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+	font-family: cursive ,sans-serif;
+    margin-right: 0px;
+
+}
+h1{
+	/*font-family: */
+	/*font-size: 50px;*/
+}
+h2{
+	/*font-family: */
+	/*font-size: 40px;*/
+}
+
+
+
+/*start nav*/
+
+
+.navbar{
+	background: black!important;
+}
+
+.navbar i {
+    color: white;
+    margin-left: 20px;
+}
+.navbar-nav {
+    font-weight: 700;
+    
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.dropdown-item{
+    
+    font-family: cursive;
+    color: white;
+    
+}
+.navbar-nav .dropdown-menu {
+    background-color: #702124;
+}
+
+/*end nav*/
+
+
+
+/*start animation paragraph*/
+
+
+/*start clear*/
+
+ #clear{
+	content:" ";
+	clear: both;
+}
+
+/*end clear*/
+
+
+
+
+
+/*start section1*/
+.main{
+
+	  background-image: url('../images/imgf.jpg');
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  background-position: center;
+  
+
+}
+
+  /*rightSide in section1*/
+
+	.form1{
+		/*border:1px solid black;*/
+		background-color: #702124;
+		background-size: contain;
+		text-align: center;
+		margin-top: 150px;
+
+	}
+
+	.form1 input:focus{
+	outline: none;
+
+	}
+
+	.form1 textarea:focus{
+	outline: none;
+
+	}
+
+
+	 .button
+	{
+	background-color: #202124;
+	border-style: none;
+	border-color: #702124;
+    color: white;
+    }
+
+	.button:hover{
+		color: #702124;
+		background-color: gray;
+		border-color: #702124;
+	}
+
+  /*end rightSide in section1*/
+
+  /* start left side in section1*/
+
+.left-side{
+	margin-top: 0px;
+	padding: 50px;
+	background:rgba(0,0,0,.4);
+	color: white;
+	/*text-align: center;*/
+	height: auto!important;
+	/*line-height: 2;*/
+	position: relative;
+
+}
+
+    /*arrow on div1 in rightSide*/
+	.arrow{
+				content: '';
+			    position: absolute;
+			   right: -45px;
+			   bottom: 80px;
+		    
+		    /*transform: rotateY(180deg);*/
+		}
+
+    .left-side .button1{
+      background-color: #702124;
+      color: white;
+    }
+      .left-side .button1:hover{
+      color: #702124;
+		background-color: gray;
+		border-color: #702124;;
+    }
+
+  /*end rightSide in Section1*/
+
+  
+/*end section1*/
+
+
+
+
+
+/*start section2*/
+
+.main2{
+	background-image: url('../images/pexels-photo-401107.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+
+.main2 h1{
+    color: #fff;
+}
+.main2 h2,h3,p{
+    color: #FFF;
+}
+
+
+.main2 video:focus{
+outline: none;	
+
+}
+
+  /*border: 3px solid #73AD21;*/
+}
+/*end section2*/
+
+
+
+
+
+
+/*start section3   class portfilo1*/
+
+.
+
+.members{
+padding-top: 20px;
+background-color: aqua;  
+} 
+
+
+.team h2{
+text-align: center;
+color:#702124;
+font-weight: 700;
+margin:20px 0px; 
+
+}
+
+.team p{
+text-align: center;
+ color:black;
+font-weight: 700;
+font-family:cursive;
+    
+
+}
+
+
+
+.members h5{
+font-weight: 700;
+text-align: center;
+color:#702124; 
+}
+
+
+
+
+.members  .card{
+text-align: center;     
+margin:10px auto ;
+}
+
+.members  .card p {
+text-align: center;     
+color: black;
+font-family: cursive;    
+}
+
+
+
+.members  .card-img-top{
+height: 200px;
+}
+
+/*end section3 */
+
+
+
+/*start section5*/
+.CalibrationServices{
+/*color: black!important;*/
+text-align: center;
+position: relative;
+z-index: 2;
+font-size: 32px;
+line-height: 36px;
+ background: url('../images/img8.jpg')!important;
+background-attachment: fixed;
+}
+/*end section5*/
+
+
+/*start section7*/
+
+
+/*start media query*/
+@media screen and (max-width: 1550px)
+{
+body{
+overflow-x: hidden!important;
+text-align: justify;
+}
+h1,h2,h3,h4,p{
+padding: 0px!important;
+margin: 0px!important;
+width: 100%!important;
+display: block;
+}
+
+
+/*start social media div*/
+#social-media{
+        
+/*margin-left: 20px!important;*/
+    
+}#social-media i{
+font-size: 25px;
+}
+.left-side{
+/*background: none;*/
+width: 100%;
+padding: 20px;
+margin-top: 350px!important;
+}
+
+/*end social media div*/
+    
+
+
+
+/*start red message*/
+.panel{
+width: 70%!important;
+}
+
+/*start section1*/
+
+/*right leftSide*/
+.main form{
+			
+width:130%!important;
+margin-left:7%!important;	
+} 
+    
+/*end rightSide*/
+
+/*start left side*/
+.left-side{
+margin-top:200px!important;
+margin: auto;
+width: 80%;
+}
+/*end leftSide*/
+
+/*end section1*/
+
+
+
+/*start section2*/
+.main2 video{
+width: 700px!important;
+}
+/*end section2*/
+
+/*start section3*/
+.portifilo .card2{
+padding-top: 80px!important;
+}
+
+  
+/*paragraph animation */
+
+
+/* start footer   */
+
+footer {
+ background: #702124;
+font-family: cursive;
+color: white;
+margin-top:100px;
+}
+
+    
+footer h4{
+color: black;
+margin: 5px;   
+}
+    
+    
+footer a {
+color: #fff;
+font-size: 14px;
+transition-duration: 0.2s;
+}
+
+
+
+footer a:hover {
+color: #FA944B;
+text-decoration: none;
+}
+
+.copy {
+font-size: 12px;
+padding: 10px;
+border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+padding-top: 2em;
+color: white;
+}
+
+
+
+
+
+
+/*end foooter*/
+
